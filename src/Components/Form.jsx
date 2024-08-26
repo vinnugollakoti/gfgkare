@@ -354,7 +354,7 @@ const Form = () => {
                         {errmsg && <div className="message-text">{errmsg}</div>}
                     </form>
                 </div>
-                <div className="contact-blog">
+                {/* <div className="contact-blog">
                     <h1 className="caption1">All the best!</h1>
                     <p className="caption2">After Registration check your mail for your domain whatsapp group link if you didn't find the email check spam folders.</p>
                     <h3 className="caption3">For any queries</h3>
@@ -362,7 +362,7 @@ const Form = () => {
                         <img src={phone} alt="Phone icon" className="phone" />
                         <p className="caption3">+91 6301181244</p>
                     </div>
-                </div>
+                </div> */}
             </div>
             {showModal && <SuccessPage onClose={handleCloseModal} />}
         </div>
